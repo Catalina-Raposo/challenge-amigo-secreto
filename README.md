@@ -13,3 +13,12 @@ Implementa una función para actualizar la lista de amigos
     - Limpiar la lista existente
     - Iterar sobre el arreglo
     - Agregar elementos a la lista
+
+
+Implementa una función para sortear los amigos
+    - Validar que haya amigos disponibles
+    - Generar un índice aleatorio
+    - Obtener el nombre sorteado
+    - Mostrar el resultado
+
+    

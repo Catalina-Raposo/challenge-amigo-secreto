@@ -35,3 +35,18 @@ function actualizarLista(){
     }
 
 }
+
+function sortearAmigo(){
+    if(amigos.length ===0){
+        alert("No hay nombres ingresados. Escribe alguno.")
+        return;
+    }
+    //Generar un indice aleatorio
+    const indiceAleatorio = Math.floor(Math.random()*amigos.length);
+
+    const amigoSorteado = amigos[indiceAleatorio];
+
+    const resultado = document.getElementById("resultado");
+    resultado.innerHTML = `Amigo sorteado: <strong>${amigoSorteado}</strong> `;
+
+}
