@@ -5,7 +5,7 @@ function agregarAmigo(){
     const nameAmigo = inputAmigo.value.trim();
 
     if(nameAmigo === ""){
-        alert("Se debe agregar un nombre");
+        alert("Debes agregar un nombre para comenzar a jugar");
         return;
     }
     
