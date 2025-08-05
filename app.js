@@ -2,18 +2,18 @@ let amigos =[];
 
 function agregarAmigo(){
     const inputAmigo = document.getElementById("amigo");
-    const nombreAmigo = inputAmigo.value.trim();
+    const nameAmigo = inputAmigo.value.trim();
 
-    if(nombreAmigo === ""){
+    if(nameAmigo === ""){
         alert("Se debe agregar un nombre");
         return;
     }
     
-    if(amigos.includes(nombreAmigo)){ 
-        alert(`El nombre ${nombreAmigo} ya ha sido ingresado, ingrese uno nuevo`);
+    if(amigos.includes(nameAmigo)){ 
+        alert(`El nombre ${nameAmigo} ya ha sido ingresado, ingrese uno nuevo`);
         return;
     }
-    amigos.push(nombreAmigo);
+    amigos.push(nameAmigo);
 
     inputAmigo.value = "";
 
@@ -40,8 +40,8 @@ function sortearAmigo(){
     //Generar un indice aleatorio
     const indiceAleatorio = Math.floor(Math.random()*amigos.length);
 
-    const amigoSorteado = amigos[indiceAleatorio];
+    const amigoSecreto = amigos[indiceAleatorio];
 
     const resultado = document.getElementById("resultado");
-    resultado.innerHTML = `Amigo sorteado: ${amigoSorteado} `;
+    resultado.innerHTML = `Tu amigo secreto es: ${amigoSecreto} `;
     }
