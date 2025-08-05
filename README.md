@@ -6,3 +6,10 @@ Implementar una función para agregar amigos:
     -Actualizar el array de amigos
     -Limpiar el campo de entrada
 
+
+
+Implementa una función para actualizar la lista de amigos
+    - Obtener el elemento de la lista
+    - Limpiar la lista existente
+    - Iterar sobre el arreglo
+    - Agregar elementos a la lista
