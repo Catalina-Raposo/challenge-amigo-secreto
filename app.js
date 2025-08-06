@@ -1,7 +1,7 @@
 let amigos =[];
 
 function agregarAmigo(){
-    const inputAmigo = document.getElementById("amigo");
+    const inputAmigo = document.getElementById("amigo"); //Uso de const: puedes modificar contenido de la const, pero sin reasignar
     const nameAmigo = inputAmigo.value.trim();
 
     if(nameAmigo === ""){
